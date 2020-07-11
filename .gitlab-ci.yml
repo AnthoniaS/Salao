@@ -1,0 +1,9 @@
+image: python:latest
+
+pages: script:
+    - "teste"
+
+artifacts:
+    paths:
+        - public
+    only: master
